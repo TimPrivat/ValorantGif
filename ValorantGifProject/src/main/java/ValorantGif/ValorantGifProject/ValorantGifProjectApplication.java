@@ -8,6 +8,7 @@ public class ValorantGifProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ValorantGifProjectApplication.class, args);
+		System.out.println("Niklas hat große Hände ;)");
 	}
 
 }
