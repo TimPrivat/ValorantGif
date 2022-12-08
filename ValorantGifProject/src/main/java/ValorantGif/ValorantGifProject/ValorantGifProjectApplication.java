@@ -7,8 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ValorantGifProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ValorantGifProjectApplication.class, args);
+		//SpringApplication.run(ValorantGifProjectApplication.class, args);
 		System.out.println("Niklas hat große Hände ;)");
+		
+		System.out.println(new ApiController().getAgent(new ApiController().getMatchID()));
+		
 	}
 
 }
